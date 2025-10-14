@@ -1,0 +1,32 @@
+<%= form_with(model: aufgabe) do |form| %>
+  <% if aufgabe.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(aufgabe.errors.count, "error") %> prohibited this aufgabe from being saved:</h2>
+
+      <ul>
+        <% aufgabe.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :aufgabe, style: "display: block" %>
+    <%= form.text_field :aufgabe %>
+  </div>
+
+  <div>
+    <%= form.label :dringlichkeit, style: "display: block" %>
+    <%= form.text_field :dringlichkeit %>
+  </div>
+
+  <div>
+    <%= form.label :schwierigkeit, style: "display: block" %>
+    <%= form.text_field :schwierigkeit %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

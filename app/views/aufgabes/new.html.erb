@@ -1,0 +1,11 @@
+<% content_for :title, "New aufgabe" %>
+
+<h1>New aufgabe</h1>
+
+<%= render "form", aufgabe: @aufgabe %>
+
+<br>
+
+<div>
+  <%= link_to "Back to aufgabes", aufgabes_path %>
+</div>

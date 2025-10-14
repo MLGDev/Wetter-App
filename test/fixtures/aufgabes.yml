@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aufgabe: MyString
+  dringlichkeit: MyString
+  schwierigkeit: MyString
+
+two:
+  aufgabe: MyString
+  dringlichkeit: MyString
+  schwierigkeit: MyString

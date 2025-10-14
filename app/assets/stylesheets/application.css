@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(202, 239, 255);
+    color: rgb(233, 121, 40);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline
+}
+
+.menü {
+  display: flex;
+  gap: 20px;
+}
+.wetter{
+    color: rgb(234, 49, 49)
+}

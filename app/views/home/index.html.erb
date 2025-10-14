@@ -1,0 +1,7 @@
+<h2>Wetter in <%= @weather["name"] %></h2>
+<div class="wetter">
+<p><strong><%= @weather["main"]["temp"].to_f.round(1) %> °C</strong></p>
+<p><%= @weather["weather"][0]["description"].capitalize %></p>
+<p>Luftfeuchtigkeit: <%= @weather["main"]["humidity"] %> %</p>
+</div>
+

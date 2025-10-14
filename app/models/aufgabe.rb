@@ -1,0 +1,2 @@
+class Aufgabe < ApplicationRecord
+end

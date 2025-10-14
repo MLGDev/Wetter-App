@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @aufgabe %>
+
+<div>
+  <%= link_to "Edit this aufgabe", edit_aufgabe_path(@aufgabe) %> |
+  <%= link_to "Back to aufgabes", aufgabes_path %>
+
+  <%= button_to "Destroy this aufgabe", @aufgabe, method: :delete %>
+</div>
