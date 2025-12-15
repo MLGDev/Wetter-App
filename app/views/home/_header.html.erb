@@ -5,7 +5,7 @@
 
   <% if user_signed_in? %>
     <%= link_to 'Neue Aufgabe', new_aufgabe_path %>
-    <%= link_to 'Abmelden', destroy_user_session_path, method: :delete %>
+    <%= link_to "Abmelden", destroy_user_session_path, data: { turbo_method: :delete } %>
     <%= link_to 'Profil', edit_user_registration_path %>
   <% else %>
     <%= link_to 'Anmelden', new_user_registration_path %>

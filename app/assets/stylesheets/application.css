@@ -19,3 +19,11 @@ a:hover{
 .wetter{
     color: rgb(234, 49, 49)
 }
+
+.actions input, .btn {
+    background: #1100ff;
+    color: white;
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 3px;
+}
